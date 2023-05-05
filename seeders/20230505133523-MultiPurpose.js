@@ -12,6 +12,9 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
+        await queryInterface.bulkInsert('MultiPurpose', [
+            {}
+        ])
   },
 
   async down (queryInterface, Sequelize) {
