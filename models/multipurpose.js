@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
   MultiPurpose.init({
     name: DataTypes.STRING,
     ingredients: DataTypes.ARRAY(DataTypes.STRING),
-    recipe: DataTypes.STRING,
+    recipe: DataTypes.TEXT,
     image: DataTypes.STRING
   }, {
     sequelize,
