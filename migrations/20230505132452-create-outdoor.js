@@ -13,7 +13,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       ingredients: {
-        type: Sequelize.ARRAY(DataTypes.STRING)
+        type: Sequelize.ARRAY(Sequelize.STRING)
       },
       recipe: {
         type: Sequelize.STRING
