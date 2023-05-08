@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('Outdoor', [
+    await queryInterface.bulkInsert("Outdoors", [
       {
         name: "Neem Oil Pesticide",
         ingredients: [

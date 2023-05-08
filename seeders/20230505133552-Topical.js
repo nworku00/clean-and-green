@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('Topical', [
+    await queryInterface.bulkInsert("Topicals", [
       {
         name:
           "Body Scrub:", 

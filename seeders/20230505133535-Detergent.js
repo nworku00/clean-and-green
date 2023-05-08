@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('Detergent', [
+    await queryInterface.bulkInsert("Detergents", [
         {
             name: "Natural Laundry Detergent Powder",
             ingredients: ["1 cup baking soda", "1 cup washing soda", "1 cup grated bar soap (use a natural soap like Castile soap)", "Optional: 10-15 drops of essential oil of your choice (e.g. lavender, lemon, tea tree"],

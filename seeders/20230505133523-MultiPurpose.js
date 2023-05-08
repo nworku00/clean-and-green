@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-        await queryInterface.bulkInsert('MultiPurpose', [
+        await queryInterface.bulkInsert("MultiPurposes", [
             {
                 name: "All-Purpose Cleaner",
                 ingredients: ["1 cup white vinegar", "1 cup water", "10-15 drops of essential oil of your choice for pleasant scent (optional)"],
