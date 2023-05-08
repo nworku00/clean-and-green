@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Outdoor.init({
     name: DataTypes.STRING,
-    ingredients: DataTypes.ARRAY,
+    ingredients: DataTypes.ARRAY(DataTypes.STRING),
     recipe: DataTypes.STRING,
     image: DataTypes.STRING
   }, {
