@@ -41,7 +41,7 @@ module.exports = {
           "1 tablespoon shea butter",
           "Optional: a few drops of essential oil for fragrance",
         ],
-        recipe: "Time to make: 15 minutes,Shelf life: Up to 1 year, Instructions: Melt the beeswax, coconut oil, and shea butter in a double boiler over low heat. Once melted, remove from heat and stir in the essential oil (if using). Pour the mixture into lip balm containers or small jars and let it cool completely before using.", 
+        recipe: "Time to make: 15 minutes,Shelf life: Up to 1 year. Instructions: Melt the beeswax, coconut oil, and shea butter in a double boiler over low heat. Once melted, remove from heat and stir in the essential oil (if using). Pour the mixture into lip balm containers or small jars and let it cool completely before using.", 
         image: ""
       },
 
@@ -52,8 +52,7 @@ module.exports = {
           "1/2 cup witch hazel",
           "Optional: a few drops of essential oil for fragrance",
         ], 
-        recipe: "Time to make: 5 minutes,Up to 6 months",
-        instructions: "Mix all ingredients together in a spray bottle. Shake well before using and spray onto skin as needed. When making your own body care products, it’s important to keep in mind that everyone’s skin is different. Test the product on a small area of skin before using to ensure that you don’t have any adverse reactions.",
+        recipe: "Time to make: 5 minutes,Up to 6 months. Instructions: Mix all ingredients together in a spray bottle. Shake well before using and spray onto skin as needed. When making your own body care products, it’s important to keep in mind that everyone’s skin is different. Test the product on a small area of skin before using to ensure that you don’t have any adverse reactions.",
         image: ""
       },
       
@@ -76,8 +75,8 @@ module.exports = {
           "1 cup Epsom salt",
           "1/2 cup baking soda",
           "Optional: a few drops of essential oil for fragrance",
-        ], recipe: "Time to make: 5 minutes,Use immediately",
-        Instructions:"Mix all ingredients together in a bowl. Add to a warm bath and soak for at least 20   minutes", image: ""
+          ], recipe: "Time to make: 5 minutes,Use immediately. Instructions:Mix all ingredients together in a bowl. Add to a warm bath and soak for at least 20 minutes",
+          image: ""
       },
 
 
