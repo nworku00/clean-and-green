@@ -16,7 +16,7 @@ module.exports = {
         type: Sequelize.ARRAY(Sequelize.STRING)
       },
       recipe: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       image: {
         type: Sequelize.STRING
