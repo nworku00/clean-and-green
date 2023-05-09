@@ -44,7 +44,7 @@ router.get('/:search', async (req, res, next) => {
             }
         });
         let results = { multiPurpose, detergent, topical, outdoor };
-        res.status(200).json(multiPurpose);
+        res.status(200).json(results);
     
 });
 
