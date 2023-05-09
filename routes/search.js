@@ -19,7 +19,10 @@ router.get('/:search', async (req, res, next) => {
             where: {
               name: {
                 [Op.like]: `%${search}%`
-              }
+                },
+                ingredients: {
+                    [Op.like]: `%${search}%`
+                  }
             }
           });
       
@@ -27,7 +30,10 @@ router.get('/:search', async (req, res, next) => {
             where: {
               name: {
                 [Op.like]: `%${search}%`
-              }
+              },
+              ingredients: {
+                  [Op.like]: `%${search}%`
+                }
             }
           });
       
@@ -35,7 +41,10 @@ router.get('/:search', async (req, res, next) => {
             where: {
               name: {
                 [Op.like]: `%${search}%`
-              }
+              },
+              ingredients: {
+                  [Op.like]: `%${search}%`
+                }
             }
           });
       
@@ -43,7 +52,10 @@ router.get('/:search', async (req, res, next) => {
             where: {
               name: {
                 [Op.like]: `%${search}%`
-              }
+              },
+              ingredients: {
+                  [Op.like]: `%${search}%`
+                }
             }
           });
       
