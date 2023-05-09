@@ -13,7 +13,7 @@ router.get('/', async (req, res, next) => {
 });
 router.get('/:search', async (req, res, next) => {
     try {
-        let { search } = req.query; // extract query parameter 'q' from the request
+        let { search } = req.params; // extract search term from the URL path
         let multiPurpose = await MultiPurpose.findAll({
             where: {
                 name: {
@@ -48,6 +48,6 @@ router.get('/:search', async (req, res, next) => {
         console.error(error);
         res.status(500).json({ message: "Error fetching data from database" });
     }
-})
+});
 
 module.exports = router;
