@@ -13,7 +13,7 @@ run dev environment :
 npm run dev
 ```
 
-run production
+run production environment
 ```
 npm start
 ```
