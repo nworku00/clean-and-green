@@ -13,7 +13,6 @@ router.get('/', async (req, res, next) => {
     res.status(200).json(results)
 });
 router.get('/:search', async (req, res, next) => {
-    try {
         let { search } = req.params; // extract search term from the URL pat
         console.log(search)
         let multiPurpose = await MultiPurpose.findAll({
@@ -46,10 +45,7 @@ router.get('/:search', async (req, res, next) => {
         });
         let results = { multiPurpose, detergent, topical, outdoor };
         res.status(200).json(results);
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ message: "Error fetching data from database" });
-    }
+    
 });
 
 module.exports = router;
