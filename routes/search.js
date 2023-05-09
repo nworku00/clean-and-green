@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const { Op } = require('sequelize');
 var {MultiPurpose, Detergent, Topical, Outdoor} = require("../models")
 
 /* GET home page. */
