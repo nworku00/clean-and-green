@@ -8,7 +8,8 @@ router.get('/', async (req, res, next) => {
     let detergent = await Detergent.findAll();
     let topical = await Topical.findAll();
     let outdoor = await Outdoor.findAll();
-    res.status(200).json(multiPurpose,detergent,topical,outdoor)
+    let results = { multiPurpose, detergent, topical, outdoor }
+    res.status(200).json(results)
 });
 
 module.exports = router;
