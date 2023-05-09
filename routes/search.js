@@ -14,7 +14,8 @@ router.get('/', async (req, res, next) => {
 });
 router.get('/:search', async (req, res, next) => {
     try {
-        let { search } = req.params; // extract search term from the URL path
+        let { search } = req.params; // extract search term from the URL pat
+        console.log(search)
         let multiPurpose = await MultiPurpose.findAll({
             where: {
                 name: {
