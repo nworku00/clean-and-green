@@ -5,6 +5,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var searchRouter = require('./routes/search');
 var multiPurposeRouter = require('./routes/multiPurpose');
 var detergentRouter = require('./routes/detergent');
 var topicalRouter = require('./routes/topical');
@@ -20,6 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/search', searchRouter);
 app.use('/multipurpose', multiPurposeRouter);
 app.use('/detergent', detergentRouter);
 app.use('/topical', topicalRouter);
