@@ -1,5 +1,5 @@
 # Healthy Household API
-API for helathy household alternatives to chemichal clearnes,detergents,and lotions.
+API for healthy household alternatives to chemical cleaners,detergents,and lotions.
 
 ## Build and Run command
 
